@@ -5,16 +5,34 @@ create this project following the tutorial available at [Link](https://mlops-cod
 The idea is to create a loan approval model the data is available on kaggle following this [Link](https://www.kaggle.com/competitions/playground-series-s4e10/overview)
 
 # initialization
-installation of uv : 
+
+Installation of uv : 
 - `pip install uv`  
-install package with uv :
+
+Install package with uv :
 - `uv pip install requests numpy pandas`   
-create venv : 
+
+Create venv : 
 - `uv venv`. 
-activate venv: 
+
+Activate venv: 
 - `source .venv/bin/activate`
-install python : 
+
+Install python : 
 - `uv python install 3.12`. 
 
-uv can also replace pipx for installing and managing globally available Python tools:
+Uv can also replace pipx for installing and managing globally available Python tools:
 - `uv tool install ruff`
+
+# Uv package manager 
+
+I will use uv as package manager, ensures that all specified dependencies are installed in the correct versions, maintaining a stable and conflict-free environment for development.
+
+Installation of uv : 
+- `uv init`
+
+For main dependencies
+- `uv add pandas scikit-learn`
+
+For development dependencies
+- `uv add --group dev ipykernel`

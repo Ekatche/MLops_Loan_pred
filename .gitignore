@@ -1,0 +1,6 @@
+# Environs
+.env
+/.venv/
+
+# Build 
+/uv.lock
