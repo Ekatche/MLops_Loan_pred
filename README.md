@@ -1,38 +1,42 @@
 # MLops_Loan_pred
 
-create this project following the tutorial available at [Link](https://mlops-coding-course.fmind.dev/index.html)
+Ce projet vise à développer un modèle de prédiction d'approbation de prêts en utilisant des pratiques MLOps.  
+Les données nécessaires sont disponibles sur Kaggle via ce [lien](https://www.kaggle.com/competitions/playground-series-s4e10/overview).  
+Le tutoriel utilisé pour guider la réalisation du projet est accessible [ici](https://mlops-coding-course.fmind.dev/index.html).
 
-The idea is to create a loan approval model the data is available on kaggle following this [Link](https://www.kaggle.com/competitions/playground-series-s4e10/overview)
+## Initialisation du projet
 
-# initialization
+Nous utiliserons **uv** comme gestionnaire de paquets pour simplifier l'installation des dépendances et la gestion de l'environnement Python.
 
-Installation of uv : 
-- `pip install uv`  
+### Étapes d'installation et de configuration :
 
-Install package with uv :
-- `uv pip install requests numpy pandas`   
+1. **Installer uv**  
+  - `pip install uv`
+  
+2. **Installer des paquets avec uv**  
+  - `uv pip install requests numpy pandas`   
 
-Create venv : 
-- `uv venv`. 
+3. **Créer un environnement virtuel**  
+  - `uv venv`  
 
-Activate venv: 
-- `source .venv/bin/activate`
+4. **Activer l’environnement virtuel**
+  •	Sous Linux/MacOS :
+      - `source .venv/bin/activate`
+  •	Sous Windows :
+      - `.venv\Scripts\activate`
 
-Install python : 
-- `uv python install 3.12`. 
+5. **Installer une version spécifique de Python**
+  - `uv python install 3.12`. 
 
-Uv can also replace pipx for installing and managing globally available Python tools:
-- `uv tool install ruff`
+# Gestion des dépendances avec uv
 
-# Uv package manager 
+uv permet d’assurer une installation cohérente des dépendances, tout en évitant les conflits de versions.
 
-I will use uv as package manager, ensures that all specified dependencies are installed in the correct versions, maintaining a stable and conflict-free environment for development.
+## Initialiser uv dans le projet
+  - `uv init`
 
-Installation of uv : 
-- `uv init`
+## Ajouter des dépendances principales
+  - `uv add pandas scikit-learn`
 
-For main dependencies
-- `uv add pandas scikit-learn`
-
-For development dependencies
+## Ajouter des dépendances de développement
 - `uv add --group dev ipykernel`
