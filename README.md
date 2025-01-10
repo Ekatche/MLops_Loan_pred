@@ -11,26 +11,30 @@ Nous utiliserons **uv** comme gestionnaire de paquets pour simplifier l'installa
 ### Étapes d'installation et de configuration :
 
 1. **Installer uv**  
-  - `pip install uv`
+    - `pip install uv`
   
 2. **Installer des paquets avec uv**  
-  - `uv pip install requests numpy pandas`   
+    - `uv pip install requests numpy pandas`   
 
 3. **Créer un environnement virtuel**  
-  - `uv venv`  
+    - `uv venv`  
 
 4. **Activer l’environnement virtuel**
-  •	Sous Linux/MacOS :
-      - `source .venv/bin/activate`
-  •	Sous Windows :
+
+    • Sous Linux/MacOS :
+    - `source .venv/bin/activate`  
+    
+    • Sous Windows :
       - `.venv\Scripts\activate`
 
 5. **Installer une version spécifique de Python**
-  - `uv python install 3.12`. 
+     - `uv python install 3.12`. 
 
 # Gestion des dépendances avec uv
 
 uv permet d’assurer une installation cohérente des dépendances, tout en évitant les conflits de versions.
+
+[Documentation addtionnelle sur Uv ](https://astral.sh/blog/uv-unified-python-packaging) 
 
 ## Initialiser uv dans le projet
   - `uv init`
