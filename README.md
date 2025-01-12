@@ -1,7 +1,7 @@
 # MLops_Loan_pred
 
 Ce projet vise à développer un modèle de prédiction d'approbation de prêts en utilisant des pratiques MLOps.  
-Les données nécessaires sont disponibles sur Kaggle via ce [lien](https://www.kaggle.com/competitions/playground-series-s4e10/overview).  
+Les données nécessaires sont disponibles sur Kaggle via ce [lien](https://www.kaggle.com/datasets/laotse/credit-risk-dataset).  
 Le tutoriel utilisé pour guider la réalisation du projet est accessible [ici](https://mlops-coding-course.fmind.dev/index.html).
 
 ## Initialisation du projet

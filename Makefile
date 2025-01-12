@@ -12,10 +12,8 @@ check:
 lint:
 	.venv/bin/python -m pylint --disable=C,R *.py
 
-# Activate the virtual environment
-activate_env:
-	@echo "Note: This will not persist the activation. Use 'source .venv/bin/activate' directly in your terminal."
-	source .venv/bin/activate
+update_req:
+	uv pip freeze > requirements.txt
 
 # Install dependencies using uv, ensuring uv is installed
 setup:
