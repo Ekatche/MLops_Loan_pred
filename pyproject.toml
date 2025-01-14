@@ -18,6 +18,7 @@ dependencies = [ # Main dependency
     "scikit-learn>=1.6.0",
     "scipy>=1.15.0",
     "seaborn>=0.13.2",
+    "statsmodels>=0.14.4",
 ]
 
 [dependency-groups] # Development dependency
