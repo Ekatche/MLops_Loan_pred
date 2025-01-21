@@ -6,13 +6,16 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [ # Main dependency
     "black>=24.10.0",
+    "category-encoders>=2.8.0",
     "click>=8.1.8",
+    "fastparquet>=2024.11.0",
     "invoke>=2.2.0",
     "ipykernel>=6.29.5",
     "matplotlib>=3.10.0",
     "numpy>=2.2.1",
     "pandas>=2.2.3",
     "plotly>=5.24.1",
+    "pyarrow>=18.1.0",
     "pylint>=3.3.3",
     "ruff>=0.9.0",
     "scikit-learn>=1.6.0",
