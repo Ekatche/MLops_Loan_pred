@@ -4,3 +4,6 @@
 
 # Build 
 /uv.lock
+
+# cache 
+.cache/
