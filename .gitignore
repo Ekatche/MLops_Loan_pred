@@ -7,3 +7,7 @@
 
 # cache 
 .cache/
+
+# ajouter les dossiers figures et model dans le dossier notebooks dans le gitignore
+notebooks/figures/
+notebooks/model/

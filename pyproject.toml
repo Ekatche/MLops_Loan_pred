@@ -14,6 +14,7 @@ dependencies = [ # Main dependency
     "matplotlib>=3.10.0",
     "nbformat>=5.10.4",
     "numpy>=2.2.1",
+    "optuna>=4.2.0",
     "pandas>=2.2.3",
     "plotly>=5.24.1",
     "pyarrow>=18.1.0",
